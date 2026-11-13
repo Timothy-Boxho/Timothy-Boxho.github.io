@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Timothy Boxho — Photographe à Strasbourg | Planche contact</title>
+  <meta name="description" content="Timothy Boxho, photographe à Strasbourg (Alsace) : événementiel, portrait, nature et macro. FR · EN · DE." />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <script>
+    (function () {
+      var t = localStorage.getItem("tybox-theme");
+      if (t !== "light" && t !== "dark") {
+        t = window.matchMedia && window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      }
+      document.documentElement.setAttribute("data-theme", t);
+      var l = localStorage.getItem("tybox-lang");
+      document.documentElement.setAttribute("lang", l === "en" ? "en" : "fr");
+    })();
+  </script>
+  <link rel="stylesheet" href="style.css?v=2" />
+</head>
+<body>
+  <a class="skip" href="#planche" data-i18n="ui.skip">Aller au contenu</a>
+
+  <header class="hdr">
+    <div class="wrap hdr-in">
+      <a href="#top" class="logo" aria-label="Timothy Boxho">
+        <span class="logo-box">TB</span>
+        <span class="logo-txt">Timothy Boxho<small>TYBOX · 400</small></span>
+      </a>
+
+      <nav class="nav" aria-label="Navigation">
+        <a href="#planche"><span>01</span> <b data-i18n="nav.sheet">Planche</b></a>
+        <a href="#prestations"><span>02</span> <b data-i18n="nav.services">Prestations</b></a>
+        <a href="#atelier"><span>03</span> <b data-i18n="nav.studio">Atelier</b></a>
+        <a href="#contact"><span>04</span> <b data-i18n="nav.contact">Contact</b></a>
+      </nav>
+
+      <div class="ctrl">
+        <button type="button" class="tgl tgl-theme" data-theme-toggle aria-pressed="false">
+          <span class="tgl-dot" aria-hidden="true"></span>
+          <span data-theme-label>Mode clair</span>
+        </button>
+        <button type="button" class="tgl tgl-lang" data-lang-toggle aria-label="Switch to English">
+          <span data-lang="fr">FR</span><span class="sep">/</span><span data-lang="en">EN</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-left">
+          <p class="kick mono"><span class="rec" aria-hidden="true"></span> <span data-i18n="hero.kick">Photographe · Strasbourg, Alsace · depuis 2022</span></p>
+          <h1 class="giant">
+            <span class="g1">Timothy</span>
+            <span class="g2">Boxho<i>.</i></span>
+          </h1>
+        </div>
+        <aside class="hero-right">
+          <p class="hero-tag" data-i18n="hero.tag">Je photographie ce qui se passe vraiment&nbsp;: la scène, les visages, le vivant.</p>
+          <ul class="hero-meta mono">
+            <li><span data-i18n="hero.m1k">Sujets</span><b data-i18n="hero.m1v">Événementiel · Portrait · Nature &amp; Macro</b></li>
+            <li><span data-i18n="hero.m2k">Langues</span><b>FR · EN · DE</b></li>
+            <li><span data-i18n="hero.m3k">Délai</span><b data-i18n="hero.m3v">Réponse sous 24&nbsp;h</b></li>
+          </ul>
+          <div class="hero-cta">
+            <a href="#planche" class="btn btn-fill" data-i18n="hero.cta1">Voir la planche</a>
+            <a href="#contact" class="btn btn-line" data-i18n="hero.cta2">Demander un devis</a>
+          </div>
+        </aside>
+      </div>
+
+      <div class="reel" aria-hidden="true">
+        <div class="reel-track" data-reel></div>
+      </div>
+    </section>
+
+    <!-- PLANCHE CONTACT -->
+    <section class="sec sheet-sec" id="planche">
+      <div class="wrap">
+        <header class="sec-head">
+          <p class="eyebrow mono" data-i18n="sheet.eye">01 — Planche contact</p>
+          <h2 class="sec-title" data-i18n="sheet.title">Cinq bandes, une sélection au crayon gras.</h2>
+          <p class="sec-desc" data-i18n="sheet.desc">Comme au labo&nbsp;: chaque série est posée sur la table lumineuse. Les vues entourées sont mes choix. Cliquez sur une image pour l'ouvrir à la loupe.</p>
+        </header>
+        <div class="sheet" data-sheet></div>
+        <p class="sheet-note mono" data-i18n="sheet.note">↔ Faites glisser les bandes sur mobile · images jamais recadrées</p>
+      </div>
+    </section>
+
+    <!-- PRESTATIONS -->
+    <section class="sec" id="prestations">
+      <div class="wrap">
+        <header class="sec-head">
+          <p class="eyebrow mono" data-i18n="svc.eye">02 — Prestations</p>
+          <h2 class="sec-title" data-i18n="svc.title">Trois façons de travailler ensemble.</h2>
+        </header>
+
+        <div class="recipes">
+          <article class="recipe">
+            <div class="recipe-top mono"><span>DÉV. 01</span><span data-i18n="svc.quote">Sur devis</span></div>
+            <h3 data-i18n="svc.a.t">Événementiel</h3>
+            <p data-i18n="svc.a.d">Festivals, conférences, soirées d'entreprise, associations.</p>
+            <ul>
+              <li data-i18n="svc.a.l1">Demi-journée, journée ou multi-jours</li>
+              <li data-i18n="svc.a.l2">Aperçus sous 24–48&nbsp;h pour vos réseaux</li>
+              <li data-i18n="svc.a.l3">Galerie complète sous 5 à 10 jours ouvrés</li>
+              <li data-i18n="svc.a.l4">Droits web &amp; presse inclus</li>
+            </ul>
+          </article>
+          <article class="recipe">
+            <div class="recipe-top mono"><span>DÉV. 02</span><span data-i18n="svc.quote">Sur devis</span></div>
+            <h3 data-i18n="svc.b.t">Portrait</h3>
+            <p data-i18n="svc.b.d">Particuliers, artistes, dirigeants, profils LinkedIn.</p>
+            <ul>
+              <li data-i18n="svc.b.l1">Lumière naturelle ou flash Godox + octa 60&nbsp;cm</li>
+              <li data-i18n="svc.b.l2">Direction de pose bienveillante</li>
+              <li data-i18n="svc.b.l3">Retouches fines et naturelles</li>
+              <li data-i18n="svc.b.l4">Livraison HD + formats web</li>
+            </ul>
+          </article>
+          <article class="recipe">
+            <div class="recipe-top mono"><span>DÉV. 03</span><span data-i18n="svc.quote">Sur devis</span></div>
+            <h3 data-i18n="svc.c.t">Nature, macro &amp; tirages</h3>
+            <p data-i18n="svc.c.d">Offices de tourisme, artisans, revues, décoration.</p>
+            <ul>
+              <li data-i18n="svc.c.l1">Fichiers 61&nbsp;MP pour les grands formats</li>
+              <li data-i18n="svc.c.l2">Macro 1:1 au Sony 100&nbsp;mm GM</li>
+              <li data-i18n="svc.c.l3">Tirages et licences sur demande</li>
+              <li data-i18n="svc.c.l4">Reportages patrimoine du Grand Est</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ATELIER -->
+    <section class="sec atelier" id="atelier">
+      <div class="wrap atelier-grid">
+        <figure class="polaroid">
+          <img src="../assets/images/about-timothy.jpg" alt="Portrait de Timothy Boxho" data-i18n-alt="studio.alt" loading="lazy" />
+          <figcaption class="mono">T. BOXHO — STRASBOURG</figcaption>
+        </figure>
+        <div>
+          <p class="eyebrow mono" data-i18n="studio.eye">03 — L'atelier</p>
+          <h2 class="sec-title" data-i18n="studio.title">Autodidacte, trilingue, toujours sur le terrain.</h2>
+          <p data-i18n="studio.p1">J'ai appris la photographie seul, en 2022, en allant chercher la lumière là où elle se trouve&nbsp;: dans les festivals, au bord du Rhin, au fond des Vosges.</p>
+          <p data-i18n="studio.p2">Je maîtrise toute la chaîne, de la prise de vue à la colorimétrie. Je travaille en français, en anglais et en allemand, ce qui facilite les événements internationaux.</p>
+
+          <div class="bag">
+            <p class="bag-title mono" data-i18n="studio.bag">Dans le sac</p>
+            <ul class="mono">
+              <li><b>Sony A7R V</b><span data-i18n="gear.1">boîtier principal · 61 MP</span></li>
+              <li><b>Sony A7 II</b><span data-i18n="gear.2">boîtier de secours</span></li>
+              <li><b>Tamron 35-150 f/2-2.8</b><span data-i18n="gear.3">reportage &amp; portrait</span></li>
+              <li><b>Sony FE 100 f/2.8 Macro GM</b><span data-i18n="gear.4">macro 1:1</span></li>
+              <li><b>Tamron 70-300</b><span data-i18n="gear.5">faune &amp; paysage</span></li>
+              <li><b>Godox V100 + UL-Box Octa 60</b><span data-i18n="gear.6">éclairage nomade</span></li>
+              <li><b>Marumi Black Mist 1/2</b><span data-i18n="gear.7">douceur des scènes de nuit</span></li>
+            </ul>
+          </div>
+          <a class="btn btn-line" href="https://timothy-boxho.github.io/Portfolio-Pro/Timothy_BOXHO_CV.pdf" target="_blank" rel="noopener noreferrer" data-i18n="studio.cv">Télécharger le CV (PDF)</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="sec contact" id="contact">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow mono" data-i18n="contact.eye">04 — Contact</p>
+          <h2 class="sec-title big" data-i18n="contact.title">Une date, un lieu, une idée&nbsp;? Écrivez-moi.</h2>
+          <ul class="channels">
+            <li><a href="mailto:tim.boxho@gmail.com"><span class="mono" data-i18n="contact.email">Email</span><b>tim.boxho@gmail.com</b></a></li>
+            <li><a href="https://wa.me/33695233596" target="_blank" rel="noopener noreferrer"><span class="mono">WhatsApp</span><b>+33 6 95 23 35 96</b></a></li>
+            <li><a href="https://www.instagram.com/timi_chiki/" target="_blank" rel="noopener noreferrer"><span class="mono">Instagram</span><b>@timi_chiki</b></a></li>
+          </ul>
+        </div>
+
+        <form class="form" data-form novalidate>
+          <p class="form-head mono" data-i18n="form.head">Fiche de commande</p>
+          <label><span data-i18n="form.name">Nom / organisation *</span>
+            <input name="name" required data-i18n-ph="form.namePh" placeholder="Votre nom" /></label>
+          <label><span data-i18n="form.email">Email *</span>
+            <input name="email" type="email" required data-i18n-ph="form.emailPh" placeholder="vous@exemple.fr" /></label>
+          <label><span data-i18n="form.type">Type de projet</span>
+            <select name="type">
+              <option value="event" data-i18n="form.o1">Événementiel</option>
+              <option value="portrait" data-i18n="form.o2">Portrait</option>
+              <option value="nature" data-i18n="form.o3">Nature, macro &amp; tirages</option>
+              <option value="other" data-i18n="form.o4">Autre</option>
+            </select></label>
+          <label><span data-i18n="form.when">Date &amp; lieu</span>
+            <input name="when" data-i18n-ph="form.whenPh" placeholder="Ex. : 14 juin, Colmar" /></label>
+          <label class="full"><span data-i18n="form.msg">Votre projet *</span>
+            <textarea name="msg" rows="4" required data-i18n-ph="form.msgPh" placeholder="Durée, nombre de personnes, ambiance, usage des photos…"></textarea></label>
+          <p class="form-err mono" data-form-err hidden data-i18n="form.err">Merci de remplir les champs marqués *.</p>
+          <div class="form-btns full">
+            <button type="submit" class="btn btn-fill" data-send="mail" data-i18n="form.sendMail">Envoyer par email</button>
+            <button type="submit" class="btn btn-line" data-send="wa" data-i18n="form.sendWa">Envoyer sur WhatsApp</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="ftr">
+    <div class="wrap ftr-in mono">
+      <span>© 2026 Timothy Boxho — TYBox</span>
+      <span data-i18n="footer.end">Fin de bande · 48.57° N 7.75° E</span>
+      <a href="#top" data-i18n="footer.top">↑ Rembobiner</a>
+    </div>
+  </footer>
+
+  <!-- LOUPE (viewer) -->
+  <div class="loupe" data-loupe hidden role="dialog" aria-modal="true" aria-label="Loupe">
+    <button type="button" class="loupe-x" data-loupe-close aria-label="Fermer" data-i18n-aria="ui.close">✕</button>
+    <button type="button" class="loupe-nav prev" data-loupe-prev aria-label="Précédente" data-i18n-aria="ui.prev">←</button>
+    <figure class="loupe-fig">
+      <img data-loupe-img alt="" />
+      <figcaption class="mono"><span data-loupe-cap></span><span data-loupe-count></span></figcaption>
+    </figure>
+    <button type="button" class="loupe-nav next" data-loupe-next aria-label="Suivante" data-i18n-aria="ui.next">→</button>
+  </div>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>
